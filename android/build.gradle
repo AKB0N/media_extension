@@ -25,7 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    applicationId 'io.ente.photos.media_extension'
+    namespace 'io.ente.photos.media_extension'
     compileSdkVersion 34
 
     compileOptions {
